@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "map local directories to http addresses, and bind html to the cli to open local urls mapped to http server in browser via node",
   "main": "index.js",
-  "bin" : { "remap" : "./src/cli.js" },
+  "bin" : { "remap" : "node src/cli.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
