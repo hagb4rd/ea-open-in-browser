@@ -28,6 +28,6 @@ o["G:\\Bilder"]="//iis/Bilder";
 o["F:\\videos\\porn"]="//iis/porn";
 /* */
 
-var mapping=mapper.mapping=loadini('../remap.ini');
+var mapping=mapper.mapping=loadini(path.resolve(__dirname,'../remap.ini'));
 
 //var fwrite=(file,obj)=>require('fs').writeFileSync(require("path").resolve(__dirname,file), JSON.stringify(obj), {encoding:'utf8'});
